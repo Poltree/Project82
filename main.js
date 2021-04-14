@@ -10,7 +10,7 @@ var last_position_of_x, last_position_of_y;
         width_of_line = document.getElementById("width_of_line").value;
 mouseEvent = "mouseDown";
     }
-      b  
+   
     canvas.addEventListener("mouseleave", my_mouseleave);
     function my_mouseleave(e){
         mouseEvent ="mouseleave";
